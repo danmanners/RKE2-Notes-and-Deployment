@@ -1,0 +1,9 @@
+---
+server: "https://rke2.k8s.danmanners.io:9345"
+node-name: "rke2-master-0X"
+token: "Fake::server:token"
+write-kubeconfig-mode: "0644"
+tls-san:
+  - "rke2.k8s.danmanners.io"
+node-label:
+  - "nodetype=control-plane"

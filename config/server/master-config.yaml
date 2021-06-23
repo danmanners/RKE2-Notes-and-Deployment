@@ -1,0 +1,13 @@
+---
+write-kubeconfig-mode: "0644"
+node-name: "rke2-master-01"
+cluster-cidr: "10.42.0.0/16"
+service-cidr: "10.43.0.0/16"
+cluster-dns: "10.43.0.10"
+cluster-domain: "rke2.homelab.local"
+tls-san:
+  - "rke2.k8s.danmanners.io"
+node-label:
+  - "nodetype=master"
+disable:
+  - "rke2-ingress-nginx"

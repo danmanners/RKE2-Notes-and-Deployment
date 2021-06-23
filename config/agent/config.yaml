@@ -1,0 +1,6 @@
+---
+node-name: "rke2-worker-01"
+server: "https://rke2.k8s.danmanners.io:9345"
+token: "Fake::server:token"
+node-label:
+  - "nodetype=worker"
